@@ -1,2 +1,2 @@
 #! /bin/sh
-docker run -it --rm -v $(PWD):/work amura/gcc-ia16 "$@"
+docker run -it --rm -v $(pwd):/work amura/gcc-ia16 "$@"

@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 ubuntu:jammy
 
-MAINTAINER MURAMATSU Atsushi <amura@tomato.sakura.ne.jp>
+LABEL maintainer="MURAMATSU Atsushi <amura@tomato.sakura.ne.jp>"
 
 WORKDIR /work
 ENV INFOPATH=/usr/ia16-elf/info:/usr/share/info
